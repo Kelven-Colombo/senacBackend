@@ -1,0 +1,29 @@
+//criar repositório
+git init
+
+//verificar alterações do repositório
+git status
+
+//user
+git config --local user.name "<seunome>" 
+git config --local user.email "<seuemail>@gmail.com"
+
+//adicionar arquivos ao repositório
+git add .
+
+//Confirmar a entrada dos arquivos no repositório
+git commit -m "<Mensagem Qualquer>"
+
+//Confirmar a alteração de um arquivo no repositório
+git commit nomeArquivo.extensão -m "<Mensagem Qualquer>"
+
+//remover arquivos do repositório
+git rm --cached <nome do arquivo>
+
+//online
+git push origin main
+
+//ramificações
+git branch
+git checkout master
+git merge <nomebranch>
